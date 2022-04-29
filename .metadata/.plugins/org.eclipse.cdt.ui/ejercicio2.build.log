@@ -1,0 +1,14 @@
+16:47:29 **** Incremental Build of configuration Debug for project ejercicio2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio2.o" "..\\src\\ejercicio2.c" 
+..\src\ejercicio2.c: In function 'main':
+..\src\ejercicio2.c:22:10: warning: suggest parentheses around comparison in operand of '!=' [-Wparentheses]
+   22 |  if(edad < 18 != s){
+      |     ~~~~~^~~~
+..\src\ejercicio2.c:22:15: warning: 's' is used uninitialized in this function [-Wuninitialized]
+   22 |  if(edad < 18 != s){
+      |     ~~~~~~~~~~^~~~
+gcc -o ejercicio2.exe "src\\ejercicio2.o" 
+
+16:47:29 Build Finished. 0 errors, 2 warnings. (took 559ms)
+

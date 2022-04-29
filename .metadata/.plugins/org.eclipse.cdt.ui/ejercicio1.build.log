@@ -1,0 +1,19 @@
+23:24:50 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1.o" "..\\src\\ejercicio1.c" 
+..\src\ejercicio1.c: In function 'main':
+..\src\ejercicio1.c:16:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   16 |  scanf("%f", sueldo);
+      |         ~^   ~~~~~~
+      |          |   |
+      |          |   double
+      |          float *
+..\src\ejercicio1.c:14:2: warning: 'sueldo' is used uninitialized in this function [-Wuninitialized]
+   14 |  printf("Ingrese su sueldo:  $ %.2f", sueldo);
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o ejercicio1.exe "src\\ejercicio1.o" 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file ejercicio1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+23:24:50 Build Failed. 1 errors, 2 warnings. (took 517ms)
+

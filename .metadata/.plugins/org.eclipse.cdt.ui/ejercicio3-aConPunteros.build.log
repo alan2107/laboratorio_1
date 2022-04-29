@@ -1,0 +1,13 @@
+20:54:15 **** Incremental Build of configuration Debug for project ejercicio3-aConPunteros ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-aConPunteros.o" "..\\src\\ejercicio3-aConPunteros.c" 
+..\src\ejercicio3-aConPunteros.c: In function 'main':
+..\src\ejercicio3-aConPunteros.c:29:24: error: expected declaration specifiers or '...' before '(' token
+   29 |  int realizarDescuento((numero), &numeroFinal);
+      |                        ^
+..\src\ejercicio3-aConPunteros.c:29:34: error: expected declaration specifiers or '...' before '&' token
+   29 |  int realizarDescuento((numero), &numeroFinal);
+      |                                  ^
+
+20:54:15 Build Failed. 2 errors, 0 warnings. (took 270ms)
+

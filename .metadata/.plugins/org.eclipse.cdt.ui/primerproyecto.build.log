@@ -1,0 +1,12 @@
+22:19:09 **** Incremental Build of configuration Debug for project primerproyecto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primerproyecto.o" "..\\src\\primerproyecto.c" 
+..\src\primerproyecto.c: In function 'main':
+..\src\primerproyecto.c:15:12: error: invalid operands to binary & (have 'char *' and 'int')
+   15 |  scanf("%d"&alturaDeDireccion);
+      |        ~~~~^
+      |        |
+      |        char *
+
+22:19:09 Build Failed. 1 errors, 0 warnings. (took 191ms)
+

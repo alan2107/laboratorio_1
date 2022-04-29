@@ -1,0 +1,14 @@
+22:53:04 **** Rebuild of configuration Debug for project ejercicioPuntero ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioPuntero.o" "..\\src\\ejercicioPuntero.c" 
+..\src\ejercicioPuntero.c: In function 'main':
+..\src\ejercicioPuntero.c:13:8: warning: unused variable 'promedioDeNota' [-Wunused-variable]
+   13 |  float promedioDeNota;
+      |        ^~~~~~~~~~~~~~
+..\src\ejercicioPuntero.c:12:6: warning: unused variable 'notaDos' [-Wunused-variable]
+   12 |  int notaDos;
+      |      ^~~~~~~
+gcc -o ejercicioPuntero.exe "src\\ejercicioPuntero.o" 
+
+22:53:07 Build Finished. 0 errors, 2 warnings. (took 2s.901ms)
+
