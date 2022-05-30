@@ -1,248 +1,30 @@
-22:12:18 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
+23:49:15 **** Incremental Build of configuration Debug for project simulacroExamen ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-..\src\ejercicio3-4.c: In function 'sumar4':
-..\src\ejercicio3-4.c:62:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-   62 |   scanf("%d",auxNumero2);
-      |          ~^  ~~~~~~~~~~
-      |           |  |
-      |           |  int
-      |           int *
-..\src\ejercicio3-4.c:66:8: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   66 | return 0;
-      |        ^
-..\src\ejercicio3-4.c:55:6: note: declared here
-   55 | void sumar4(void){
-      |      ^~~~~~
-..\src\ejercicio3-4.c:62:3: warning: 'auxNumero2' is used uninitialized in this function [-Wuninitialized]
-   62 |   scanf("%d",auxNumero2);
-      |   ^~~~~~~~~~~~~~~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-22:12:53 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asociado.o" "..\\src\\asociado.c" 
+..\src\asociado.c: In function 'cargarAsociado':
+..\src\asociado.c:60:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   60 |     scanf("%d", pArray[indexLibre].dni);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~
+      |             |                     |
+      |             int *                 int
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\simulacroExamen.o" "..\\src\\simulacroExamen.c" 
+gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
+23:49:59 **** Incremental Build of configuration Debug for project simulacroExamen ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-..\src\ejercicio3-4.c: In function 'sumar4':
-..\src\ejercicio3-4.c:62:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-   62 |   scanf("%d",auxNumero2);
-      |          ~^  ~~~~~~~~~~
-      |           |  |
-      |           |  int
-      |           int *
-..\src\ejercicio3-4.c:66:8: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   66 | return 0;
-      |        ^
-..\src\ejercicio3-4.c:55:6: note: declared here
-   55 | void sumar4(){
-      |      ^~~~~~
-..\src\ejercicio3-4.c:62:3: warning: 'auxNumero2' is used uninitialized in this function [-Wuninitialized]
-   62 |   scanf("%d",auxNumero2);
-      |   ^~~~~~~~~~~~~~~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
-22:14:05 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asociado.o" "..\\src\\asociado.c" 
+..\src\asociado.c: In function 'cargarAsociado':
+..\src\asociado.c:59:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   59 |     scanf("%d", pArray[indexLibre].dni);
+      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~
+      |             |                     |
+      |             int *                 int
+gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
+23:52:04 **** Incremental Build of configuration Debug for project simulacroExamen ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-..\src\ejercicio3-4.c: In function 'sumar4':
-..\src\ejercicio3-4.c:62:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-   62 |   scanf("%d",Numero2);
-      |          ~^  ~~~~~~~
-      |           |  |
-      |           |  int
-      |           int *
-..\src\ejercicio3-4.c:66:8: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   66 | return 0;
-      |        ^
-..\src\ejercicio3-4.c:55:6: note: declared here
-   55 | void sumar4(){
-      |      ^~~~~~
-..\src\ejercicio3-4.c:62:3: warning: 'Numero2' is used uninitialized in this function [-Wuninitialized]
-   62 |   scanf("%d",Numero2);
-      |   ^~~~~~~~~~~~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-22:15:17 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asociado.o" "..\\src\\asociado.c" 
+gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
+00:03:24 **** Incremental Build of configuration Debug for project simulacroExamen ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
-22:16:15 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-22:16:38 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-22:17:13 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:51:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
-   51 |  return 0;
-      |         ^
-..\src\ejercicio3-4.c:49:6: note: declared here
-   49 | void sumar3(int numero3, int numero4){
-      |      ^~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-12:15:51 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'main':
-..\src\ejercicio3-4.c:36:1: warning: implicit declaration of function 'suma2'; did you mean 'sumar2'? [-Wimplicit-function-declaration]
-   36 | suma2();
-      | ^~~~~
-      | sumar2
-..\src\ejercicio3-4.c: In function 'sumar2':
-..\src\ejercicio3-4.c:54:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
-   54 |  int resultado;
-      |      ^~~~~~~~~
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:70:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
-   70 |  int resultado;
-      |      ^~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\ejercicio3-4.o: in function `main':
-F:\facultad\laboratorio_1\ejercicio3-4\Debug/../src/ejercicio3-4.c:36: undefined reference to `suma2'
-collect2.exe: error: ld returned 1 exit status
-12:17:02 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar2':
-..\src\ejercicio3-4.c:54:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
-   54 |  int resultado;
-      |      ^~~~~~~~~
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:70:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
-   70 |  int resultado;
-      |      ^~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-12:19:58 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar2':
-..\src\ejercicio3-4.c:54:6: warning: variable 'auxResultado' set but not used [-Wunused-but-set-variable]
-   54 |  int auxResultado;
-      |      ^~~~~~~~~~~~
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:70:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
-   70 |  int resultado;
-      |      ^~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-12:20:51 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'sumar3':
-..\src\ejercicio3-4.c:71:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
-   71 |  int resultado;
-      |      ^~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-12:21:26 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-12:24:05 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'main':
-..\src\ejercicio3-4.c:50:13: error: void value not ignored as it ought to be
-   50 |   resultado = sumar3(numero1, numero2);
-      |             ^
-12:24:45 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'main':
-..\src\ejercicio3-4.c:51:3: warning: 'resultado' is used uninitialized in this function [-Wuninitialized]
-   51 |   printf("su suma es: %d" , resultado);
-      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-12:24:57 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'main':
-..\src\ejercicio3-4.c:51:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'void (*)(int,  int)' [-Wformat=]
-   51 |   printf("su suma es: %d" , sumar3);
-      |                       ~^    ~~~~~~
-      |                        |    |
-      |                        int  void (*)(int,  int)
-..\src\ejercicio3-4.c:42:6: warning: unused variable 'resultado' [-Wunused-variable]
-   42 |  int resultado;
-      |      ^~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-12:25:34 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'main':
-..\src\ejercicio3-4.c:51:29: error: invalid use of void expression
-   51 |   printf("su suma es: %d" , sumar3(numero1, numero2));
-      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
-..\src\ejercicio3-4.c:42:6: warning: unused variable 'resultado' [-Wunused-variable]
-   42 |  int resultado;
-      |      ^~~~~~~~~
-12:26:17 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-..\src\ejercicio3-4.c: In function 'main':
-..\src\ejercicio3-4.c:42:6: warning: unused variable 'resultado' [-Wunused-variable]
-   42 |  int resultado;
-      |      ^~~~~~~~~
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-12:26:23 **** Incremental Build of configuration Debug for project ejercicio3-4 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio3-4.o" "..\\src\\ejercicio3-4.c" 
-gcc -o ejercicio3-4.exe "src\\ejercicio3-4.o" 
-Info: Nothing to build for ejercicio3-4
-Info: Nothing to build for ejercicio3-4
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\simulacroExamen.o" "..\\src\\simulacroExamen.c" 
+gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
+Info: Nothing to build for simulacroExamen
