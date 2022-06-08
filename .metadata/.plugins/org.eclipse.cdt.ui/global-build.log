@@ -1,30 +1,11 @@
-23:49:15 **** Incremental Build of configuration Debug for project simulacroExamen ****
+Info: Nothing to build for inicializarMallocRealloc
+17:52:36 **** Incremental Build of configuration Debug for project inicializarMallocRealloc ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asociado.o" "..\\src\\asociado.c" 
-..\src\asociado.c: In function 'cargarAsociado':
-..\src\asociado.c:60:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-   60 |     scanf("%d", pArray[indexLibre].dni);
-      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~
-      |             |                     |
-      |             int *                 int
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\simulacroExamen.o" "..\\src\\simulacroExamen.c" 
-gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
-23:49:59 **** Incremental Build of configuration Debug for project simulacroExamen ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicializarMallocRealloc.o" "..\\src\\inicializarMallocRealloc.c" 
+gcc -o inicializarMallocRealloc.exe "src\\inicializarMallocRealloc.o" 
+Info: Nothing to build for inicializarMallocRealloc
+17:52:52 **** Incremental Build of configuration Debug for project inicializarMallocRealloc ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asociado.o" "..\\src\\asociado.c" 
-..\src\asociado.c: In function 'cargarAsociado':
-..\src\asociado.c:59:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
-   59 |     scanf("%d", pArray[indexLibre].dni);
-      |            ~^   ~~~~~~~~~~~~~~~~~~~~~~
-      |             |                     |
-      |             int *                 int
-gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
-23:52:04 **** Incremental Build of configuration Debug for project simulacroExamen ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\asociado.o" "..\\src\\asociado.c" 
-gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
-00:03:24 **** Incremental Build of configuration Debug for project simulacroExamen ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\simulacroExamen.o" "..\\src\\simulacroExamen.c" 
-gcc -o simulacroExamen.exe "src\\asociado.o" "src\\llamada.o" "src\\simulacroExamen.o" 
-Info: Nothing to build for simulacroExamen
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicializarMallocRealloc.o" "..\\src\\inicializarMallocRealloc.c" 
+gcc -o inicializarMallocRealloc.exe "src\\inicializarMallocRealloc.o" 
+Info: Nothing to build for inicializarMallocRealloc

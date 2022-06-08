@@ -148,6 +148,8 @@ void getDiscount(float * pNumeroIngresado,float * descuento, float *resultado){
  return;
 }
 
+
+// ABM
 int inicializarAlumnos(alumno pArray[], int len){
 	int retorno = -1;
 
@@ -191,8 +193,23 @@ int bajaAlumno(alumno pArray[], int len, int idAlumno){
 		}
 	}
 	return retorno;
-};
+}
 
+int modificarAlumno(alumno pArray[], int len, int idAlumno){
+	int retorno = -1;
+	int index;
+
+	if(pArray != NULL && len > 0 && idAlumno > 0){
+		index = buscarIndexPorId(pArray, len, idAlumno);
+		if(index != -1){
+
+			}
+		}
+		for(int i = 0; i < len; i++){
+			if(pArray[i].idAlumno == idAlumno && pArray[i].isEmpty == 0){
+		}
+	}
+}
 
 int sortPassengers(passenger *list, int lenght, int order) {
 	int Return = -1;
@@ -270,7 +287,7 @@ int modificarAlumno(alumno pArray[], int len, int idAlumno){
 			if(pArray[i].idAlumno == idAlumno && pArray[i].isEmpty == 0){
 		}
 	}
-};
+}
 
 int buscarIndexPorEspacioLibre(alumno pArray[], int len){
 	int retorno = -1;
@@ -331,5 +348,18 @@ int incrementarId(){
 	idStatic++;
 
 	return idStatic;
+}
+int buscarIndexPorIsEmpty(Alumno pArray[], int len){
+	int retorno = -1;
+
+	if(pArray != NULL && len > 0){
+		for(int i=0; i<len; i++){
+			if(pArray[i].isEmpty == 1){
+				retorno = i;
+				break;
+			}
+		}
+	}
+	return retorno;
 }
 

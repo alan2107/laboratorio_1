@@ -38,16 +38,12 @@ int cargaEstudiantes(Estudiante arrayEstudiante[], int len){
 		for(i=0; i<len; i++){
 			printf("Ingrese N legajo:\n");
 
-			scanf("%d", *(arrayEstudiante+i)->legajo); //Accedo a través del puntero
+			scanf("%d", *(arrayEstudiante + i)->legajo); //Accedo a través del puntero
 			printf("Ingrese la edad:\n");
-			scanf("%d", &(*(arrayEstudiante+i)).edad); // Convierto con los parentesis en una dir de memoria
+			scanf("%d", &(*(arrayEstudiante + i)).edad); // Convierto con los parentesis en una dir de memoria
 		}
 
-
-
 	}
-
-
 	return retorno;
 }
 
