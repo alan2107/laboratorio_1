@@ -17,10 +17,27 @@ typedef struct {
 	int codigo;
 } eProducto;
 
+eProducto* newProducto();
+eProducto * newProductoParam(char * nombre, float price, int codigo);
+int mostrarProducto(eProducto * pProduct);
+void initDeVariosProductos(eProducto * arrayPProducto[], int len);
+
+
+int main(void) {
+
+	eProducto * pProductos[10];
+	eProducto * pProducto;
+
+	pProducto = newProductoParam("coca", 200, 1234);
+	mostrarProducto(pProducto);
+
+	return 0;
+}
+
 eProducto* newProducto() {
 	eProducto *espacioEnMemoriaParaUneProducto;
 
-	espacioEnMemoriaParaUneProducto = (eProducto*) malloc(sizeof(eProducto));
+	espacioEnMemoriaParaUneProducto = (eProducto*)malloc(sizeof(eProducto));
 
 	if (espacioEnMemoriaParaUneProducto != NULL) {
 		strcpy(espacioEnMemoriaParaUneProducto->nombre, "");
@@ -54,12 +71,15 @@ int mostrarProducto(eProducto * pProduct){
 	return retorno;
 }
 
-int main(void) {
+// eProducto ** arrayPProducto = // eProducto * arrayPProducto[]
 
-	eProducto * pProducto;
+void initDeVariosProductos(eProducto * arrayPProducto[], int len){
 
-	pProducto = newProductoParam("coca", 200, 1234);
-	mostrarProducto(pProducto);
-
-	return 0;
+	if(arrayPProducto != NULL && len > 0){
+		for(int i=0; i<len; i++){
+			*(arrayPProducto) = NULL;
+		}
+	}
 }
+
+
